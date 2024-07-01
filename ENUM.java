@@ -39,9 +39,9 @@ public class ENUM {
         // System.out.println(obj);   
         // obj.show();
 
-        Students obj[] = Students.values();
+       Students obj[] = Students.values();
         System.out.println(obj);
-        for(int i =0; i<=obj.length-1;i++){
+        for(int i =0; i<obj.length;i++){
             System.out.println(obj[i]);
 
 
